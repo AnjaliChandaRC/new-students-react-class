@@ -8,7 +8,7 @@ const MapCards = () => {
             <h2 className='text-3xl font-bold'>Map & Nested Map Cards</h2>
             <div className='flex'>
                 {OUR_TEAM_CARDS_DATA.map((obj, index) => (
-                    <div key={index} className='card-parent mx-4'>
+                    <div key={index} className='bg-[#a49797] mx-4'>
                         <FacebookIcon />
                         <h2 className={`${index === 0 ? "mt-10" : index === 2 ? "pt-10" : ""}`}>{obj.heading}</h2>
                         <p>{obj.post}</p>

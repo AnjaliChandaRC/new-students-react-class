@@ -1,3 +1,5 @@
+import { DashboardIcon, EventsIcon, OrderIcon, ProgressIcon } from "./Icons"
+
 export const OUR_TEAM_CARDS_DATA = [
     {
         heading: "Lorem ipsum",
@@ -58,4 +60,27 @@ export const OUR_TEAM_CARDS_DATA = [
             }
         ]
     }
+]
+
+export const SIDEBAR_DATA = [
+    {
+        icon: <DashboardIcon />,
+        text: "Dashboard",
+        url: "/"
+    },
+    {
+        icon: <EventsIcon />,
+        text: "Events",
+        url: "/events"
+    },
+    {
+        icon: <OrderIcon />,
+        text: "Order",
+        url: "/order"
+    },
+    {
+        icon: <ProgressIcon />,
+        text: "Progress",
+        url: "/progress"
+    },
 ]

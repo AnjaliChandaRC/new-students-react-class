@@ -9,11 +9,12 @@ import UseStatePrac from '../components/home/UseStatePrac'
 import UseEffectPrac from '../components/home/UseEffectPrac'
 import UseLocationPrac from '../components/home/UseLocationPrac'
 import ViewLessCards from '../components/home/ViewLessCards'
+import Dashboard from '../components/home/Dashboard'
 
 const Home = () => {
   return (
     <>
-      <Hero />
+      {/* <Hero />
       <MapCards />
       <PropsPractice />
       <UseStatePrac/>
@@ -22,7 +23,8 @@ const Home = () => {
       <EmailJsPractice />
       <LottiePractice />
       <ViewLessCards />
-      <Footer />
+      <Footer /> */}
+        <Dashboard />
     </>
   )
 }

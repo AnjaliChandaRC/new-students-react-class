@@ -6,7 +6,7 @@ import BackToTop from './components/common/BackToTop';
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -14,7 +14,7 @@ function App() {
         </Routes>
         <BackToTop />
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
