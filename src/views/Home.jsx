@@ -10,11 +10,13 @@ import UseEffectPrac from '../components/home/UseEffectPrac'
 import UseLocationPrac from '../components/home/UseLocationPrac'
 import ViewLessCards from '../components/home/ViewLessCards'
 import Dashboard from '../components/home/Dashboard'
+import FormValidation from '../components/home/FormValidation'
 
 const Home = () => {
   return (
     <>
-      {/* <Hero />
+      <FormValidation/>
+      <Hero />
       <MapCards />
       <PropsPractice />
       <UseStatePrac/>
@@ -23,7 +25,7 @@ const Home = () => {
       <EmailJsPractice />
       <LottiePractice />
       <ViewLessCards />
-      <Footer /> */}
+      <Footer />
         <Dashboard />
     </>
   )
