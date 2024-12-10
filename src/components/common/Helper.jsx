@@ -84,3 +84,22 @@ export const SIDEBAR_DATA = [
         url: "/progress"
     },
 ]
+
+export const ACCORDION_DATA = [
+    {
+        questions: "Questions 1",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deserunt corrupti quam neque vel nostrum, fugiat impedit temporibus ipsum doloremque, sapiente voluptate quos debitis repudiandae voluptas deleniti dolorem. Facere, saepe."
+    },
+    {
+        questions: "Questions 2",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        questions: "Questions 3",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deserunt corrupti quam neque vel nostrum."
+    },
+    {
+        questions: "Questions 4",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deserunt corrupti quam neque vel nostrum, fugiat impedit temporibus ipsum doloremque, sapiente voluptate."
+    },
+]

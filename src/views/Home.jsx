@@ -11,6 +11,7 @@ import UseLocationPrac from '../components/home/UseLocationPrac'
 import ViewLessCards from '../components/home/ViewLessCards'
 import Dashboard from '../components/home/Dashboard'
 import FormValidation from '../components/home/FormValidation'
+import CustomAccordion from '../components/home/CustomAccordion'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <EmailJsPractice />
       <LottiePractice />
       <ViewLessCards />
+      <CustomAccordion/>
       <Footer />
         <Dashboard />
     </>
