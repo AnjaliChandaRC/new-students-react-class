@@ -12,10 +12,12 @@ import ViewLessCards from '../components/home/ViewLessCards'
 import Dashboard from '../components/home/Dashboard'
 import FormValidation from '../components/home/FormValidation'
 import CustomAccordion from '../components/home/CustomAccordion'
+import Counter from '../components/home/Counter'
 
 const Home = () => {
   return (
     <>
+      <Counter/>
       <FormValidation/>
       <Hero />
       <MapCards />
@@ -28,7 +30,7 @@ const Home = () => {
       <ViewLessCards />
       <CustomAccordion/>
       <Footer />
-        <Dashboard />
+      <Dashboard />
     </>
   )
 }

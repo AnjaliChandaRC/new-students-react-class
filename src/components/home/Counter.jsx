@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
+import CountUp from 'react-countup'
+import ReactVisibilitySensor from 'react-visibility-sensor'
 
 const Counter = () => {
     const [viewCount, setViewCount] = useState(false)
