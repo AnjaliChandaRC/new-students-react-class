@@ -11,7 +11,6 @@ const Sidebar = () => {
     };
 
     return (
-        <>
             <div>
                 {
                     sidebar ? "" : <div onClick={() => setSidebar(!sidebar)} className='bg-black opacity-60 w-full h-full fixed top-0 right-0 transition-all ease-in-out duration-500 md:hidden'></div>
@@ -20,7 +19,7 @@ const Sidebar = () => {
                 <div className='ps-4 pt-3 absolute'>
                     <button onClick={() => setSidebar(!sidebar)} className='md:hidden text-xl font-bold'>Toggle</button>
                 </div>
-                <div className={`${sidebar ? "transition-all ease-in-out duration-500 left-[-300px] md:left-0 top-0" : "left-0 top-0"} bg-black w-[240px] min-h-screen py-11 px-7 flex justify-between flex-col absolute md:relative`}>
+                <div className={`${sidebar ? "left-0 top-0" : ""} bg-black w-[240px] min-h-screen py-11 px-7 flex justify-between flex-col absolute md:relative transition-transform ease-in-out duration-500`}>
                     <div>
                         <button onClick={() => setSidebar(!sidebar)} className='md:hidden text-white absolute top-[15px] text-xl font-bold'>Cross</button>
                         <a href="/">
@@ -44,7 +43,6 @@ const Sidebar = () => {
                     </div>
                 </div>
             </div>
-        </>
     )
 }
 
