@@ -19,7 +19,7 @@ const Sidebar = () => {
                 <div className='ps-4 pt-3 absolute'>
                     <button onClick={() => setSidebar(!sidebar)} className='md:hidden text-xl font-bold'>Toggle</button>
                 </div>
-                <div className={`${sidebar ? "left-0 top-0" : ""} bg-black w-[240px] min-h-screen py-11 px-7 flex justify-between flex-col absolute md:relative transition-transform ease-in-out duration-500`}>
+            <div className={`${sidebar ? "left-[-300px]" : "left-0 top-0"} bg-black w-[240px] min-h-screen py-11 px-7 flex justify-between flex-col absolute md:relative transition-transform ease-in-out duration-500`}>
                     <div>
                         <button onClick={() => setSidebar(!sidebar)} className='md:hidden text-white absolute top-[15px] text-xl font-bold'>Cross</button>
                         <a href="/">
